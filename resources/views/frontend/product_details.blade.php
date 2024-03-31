@@ -326,10 +326,10 @@
                                             @endphp
                                             <div class="avialable-amount opacity-60">
                                                 @if ($detailedProduct->stock_visibility_state == 'quantity')
-                                                    (<span id="available-quantity">{{ $qty }}</span>
+                                                    <b>(<span id="available-quantity">{{ $qty }}</span></b>
                                                     {{ translate('available') }})
                                                 @elseif($detailedProduct->stock_visibility_state == 'text' && $qty >= 1)
-                                                    (<span id="available-quantity">{{ translate('In Stock') }}</span>)
+                                                    <b>(<span id="available-quantity">{{ translate('In Stock') }}</span>)</b>
                                                 @endif
                                             </div>
                                         </div>
@@ -560,6 +560,18 @@
                                 </p>
                             </div>
                             
+                            <hr>
+                            <div class="d-flex ">
+                                <span class="font-weight-bold">
+                                    <i class="las la-truck la-2x"></i>
+                                </span>
+                                <p class="font-weight-bold ml-2" id="home-delivery">
+                                   Inside Dhaka - 5 Days<br/>
+                                   Outside Dhaka - 10 Days
+                                </p>
+                            </div>
+                            
+                            <hr>
                             <div class="d-flex ">
                                 <span class="font-weight-bold">
                                     <i class="las la-truck la-2x"></i>

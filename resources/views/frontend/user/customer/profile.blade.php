@@ -27,9 +27,23 @@
                 <div class="form-group row">
                     <label class="col-md-2 col-form-label">{{ translate('Your Phone') }}</label>
                     <div class="col-md-10">
-                        <input type="text" class="form-control" placeholder="{{ translate('Your Phone')}}" name="phone" value="{{ Auth::user()->phone }}">
+                        <input type="text" class="form-control" placeholder="{{ translate('Your Phone')}}" name="phone" value="88{{ Auth::user()->phone }}">
                     </div>
                 </div>
+                
+                <!--<div class="form-group row">-->
+                <!--    <label class="col-md-2 col-form-label">{{ translate('Your Phone') }}</label>-->
+                <!--    <div class="col-md-10">-->
+                <!--        @if (\App\Addon::where('unique_identifier', 'otp_system')->first() != null && \App\Addon::where('unique_identifier', 'otp_system')->first()->activated)-->
+                <!--        <div class="form-group phone-form-group mb-1">-->
+                <!--            <input type="tel" id="phone-code" class="form-control" value="{{ Auth::user()->phone }}" placeholder="{{ translate('Your Phone')}}" name="phone" autocomplete="off">-->
+                <!--        </div>-->
+
+                <!--        <input type="hidden" name="country_code" value="">-->
+                <!--        @endif-->
+                <!--    </div>-->
+                <!--</div>-->
+                
                 <div class="form-group row">
                     <label class="col-md-2 col-form-label">{{ translate('Photo') }}</label>
                     <div class="col-md-10">
@@ -334,6 +348,59 @@
 
 @section('script')
 <script type="text/javascript">
+
+    // Country code input js
+    // var isPhoneShown = true,
+    //     countryData = window.intlTelInputGlobals.getCountryData(),
+    //     input = document.querySelector("#phone-code");
+
+    // for (var i = 0; i < countryData.length; i++) {
+    //     var country = countryData[i];
+    //     if(country.iso2 == 'bd'){
+    //         country.dialCode = '88';
+    //     }
+    // }
+
+    // var iti = intlTelInput(input, {
+    //     separateDialCode: true,
+    //     utilsScript: "{{ static_asset('assets/js/intlTelutils.js') }}?1590403638580",
+    //     onlyCountries: @php echo json_encode(\App\Country::where('status', 1)->pluck('code')->toArray()) @endphp,
+    //     customPlaceholder: function(selectedCountryPlaceholder, selectedCountryData) {
+    //         if(selectedCountryData.iso2 == 'bd'){
+    //             return "01xxxxxxxxx";
+    //         }
+    //         return selectedCountryPlaceholder;
+    //     }
+    // });
+
+    // var country = iti.getSelectedCountryData();
+    // $('input[name=country_code]').val(country.dialCode);
+
+    // input.addEventListener("countrychange", function(e) {
+    //     // var currentMask = e.currentTarget.placeholder;
+
+    //     var country = iti.getSelectedCountryData();
+    //     $('input[name=country_code]').val(country.dialCode);
+
+    // });
+    
+    // function toggleEmailPhone(el){
+    //     if(isPhoneShown){
+    //         $('.phone-form-group').addClass('d-none');
+    //         $('.email-form-group').removeClass('d-none');
+    //         isPhoneShown = false;
+    //         $(el).html('{{ translate('Use Phone Instead') }}');
+    //     }
+    //     else{
+    //         $('.phone-form-group').removeClass('d-none');
+    //         $('.email-form-group').addClass('d-none');
+    //         isPhoneShown = true;
+    //         $(el).html('{{ translate('Use Email Instead') }}');
+    //     }
+    // }
+    // Country code input js end
+
+
     function add_new_address(){
         $('#new-address-modal').modal('show');
     }

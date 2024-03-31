@@ -31,7 +31,7 @@ use App\FirebaseNotification;
 
 //highlights the selected navigation on admin panel
 if (!function_exists('sendSMS')) {
-    function sendSMS($to, $from, $text, $template_id)
+    function sendSMS($to, $from, $text) //$template_id
     {
         if (OtpConfiguration::where('type', 'nexmo')->first()->value == 1) {
             $api_key = env("NEXMO_KEY"); //put ssl provided api_token here
@@ -124,7 +124,7 @@ if (!function_exists('sendSMS')) {
                 $fields = array(
                     "sender_id" => env("SENDER_ID"),
                     "message" => $text,
-                    "template_id" => $template_id,
+                    "template_id" => 1,
                     "entity_id" => env("ENTITY_ID"),
                     "language" => env("LANGUAGE"),
                     "route" => env("ROUTE"),
@@ -178,36 +178,76 @@ if (!function_exists('sendSMS')) {
 
         } elseif (OtpConfiguration::where('type', 'esms')->first()->value == 1) {
             
-            // $url = "https://esms.mimsms.com/smsapi";
-            $url = " https://api.mimsms.com/api/SmsSending/Send?";
             
             $username = env('ESMS_USERNAME');
             $api_key = env('ESMS_API_KEY');
             $type = env('ESMS_TYPE');
             $senderid = env('ESMS_SENDER_ID');
             
-            // https://api.mimsms.com/api/SmsSending/Send?UserName=poshakshop.com@gmail.com&Apikey=RF51FHTQEKM0GP2&MobileNumber=8801717702480&SenderName=Poshakshop&TransactionType=T&Message=Hello
+            $toNumber = str_replace('+', '', $to);
+            $textSMS = urlencode($text);
+            
+            $smsURL = "https://api.mimsms.com/api/SmsSending/Send?UserName=$username&Apikey=$api_key&MobileNumber=$toNumber&SenderName=$senderid&TransactionType=$type&Message=$textSMS";
+            
+            $curl = curl_init();
 
-            $data = [
-                "UserName" => $username,
-                "Apikey" => $api_key,
-                "MobileNumber" => $to,
-                "TransactionType" => $type,
-                "SenderName" => $senderid,
-                "Message" => $text,
-            ];
-            $ch = curl_init();
-            curl_setopt($ch, CURLOPT_URL, $url);
-            curl_setopt($ch, CURLOPT_POST, 1);
-            curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
-            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-            $response = curl_exec($ch);
+            curl_setopt_array($curl, array(
+              CURLOPT_URL => $smsURL,
+              CURLOPT_RETURNTRANSFER => true,
+              CURLOPT_ENCODING => '',
+              CURLOPT_MAXREDIRS => 10,
+              CURLOPT_TIMEOUT => 0,
+              CURLOPT_FOLLOWLOCATION => true,
+              CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+              CURLOPT_CUSTOMREQUEST => 'GET',
+              CURLOPT_HTTPHEADER => array(
+                'Content-Type: application/json'
+              ),
+            ));
+            
+            $response = curl_exec($curl);
+            
+            curl_close($curl);
+            echo $response;
+            
+
+            
+            // $url = "https://esms.mimsms.com/smsapi";
+            // $url = 'https://api.mimsms.com/api/SmsSending/Send?';
+            
+            // $username = env('ESMS_USERNAME');
+            // $api_key = env('ESMS_API_KEY');
+            // $type = env('ESMS_TYPE');
+            // $senderid = env('ESMS_SENDER_ID');
+            
+            // // https://api.mimsms.com/api/SmsSending/Send?UserName=poshakshop.com@gmail.com&Apikey=RF51FHTQEKM0GP2&MobileNumber=8801717702480&SenderName=Poshakshop&TransactionType=T&Message=Hello
+
+            // $data = array(
+            //     "UserName" => $username,
+            //     "Apikey" => $api_key,
+            //     "MobileNumber" => $to,
+            //     "SenderName" => $senderid,
+            //     "TransactionType" => $type,
+            //     "Message" => $text,
+            // );
+            
+            // $ch = curl_init();
+            // curl_setopt($ch, CURLOPT_URL, $url);
+            // curl_setopt($ch, CURLOPT_POST, 1);
+            // curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
+            // curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+            // curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+            // curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+            //     'Content-Type: application/json',
+            //     'Content-Length: ' . strlen($data),
+            //     'accept:application/json'
+            // ));
+            // $response = curl_exec($ch);
             
             // dd($response);
             
-            curl_close($ch);
-            return $response;
+            // curl_close($ch);
+            // return $response;
             
         }
     }

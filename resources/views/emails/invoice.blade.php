@@ -104,6 +104,11 @@
 				<tr><td class="strong small gry-color">{{ translate('Bill to') }}:</td></tr>
 				<tr><td class="strong">{{ $shipping_address->name }}</td></tr>
 				<tr><td class="gry-color small">{{ $shipping_address->address }}, {{ $shipping_address->city }}, {{ $shipping_address->country }}</td></tr>
+				
+				<tr><td class="gry-color small">{{ translate('Division') }}: {{ $shipping_address->division }}</td></tr>
+				<tr><td class="gry-color small">{{ translate('District') }}: {{ $shipping_address->district }}</td></tr>
+				<tr><td class="gry-color small">{{ translate('Area') }}: {{ $shipping_address->area }}</td></tr>
+				
 				<tr><td class="gry-color small">{{ translate('Email') }}: {{ $shipping_address->email }}</td></tr>
 				<tr><td class="gry-color small">{{ translate('Phone') }}: {{ $shipping_address->phone }}</td></tr>
 			</table>
@@ -175,7 +180,9 @@
 			        </tr>
 			        <tr>
 			            <th class="gry-color text-left">{{ translate('Shipping Cost') }}</th>
-			            <td class="currency">{{ single_price($order->orderDetails->sum('shipping_cost')) }}</td>
+			            <td class="currency">৳{{ json_decode($order->shipping_address)->cost }}</td>
+			            
+			            <!--<td class="currency">{{ single_price($order->orderDetails->sum('shipping_cost')) }}</td>-->
 			        </tr>
 			        <tr class="border-bottom">
 			            <th class="gry-color text-left">{{ translate('Total Tax') }}</th>
@@ -187,7 +194,8 @@
 			        </tr>
 			        <tr>
 			            <th class="text-left strong">{{ translate('Grand Total') }}</th>
-			            <td class="currency">{{ single_price($order->grand_total) }}</td>
+			            <strong><span>৳{{ ($order->grand_total + json_decode($order->shipping_address)->cost) - $order->coupon_discount }}</span></strong>
+			            <!--<td class="currency">{{ single_price($order->grand_total) }}</td>-->
 			        </tr>
 		        </tbody>
 		    </table>

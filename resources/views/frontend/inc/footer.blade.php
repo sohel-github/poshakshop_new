@@ -174,6 +174,15 @@
                 @endif --}}
             </div>
         </div>
+        
+        <br/><br/>
+        
+        <div class="row align-items-center">
+            <div class="col-sm-12">
+                <img src="{{ static_asset('ssl-commerce-banner.jpg') }}" alt="" style="width:100%;border-radius:10px;" />
+            </div>
+        </div>
+        
     </div>
 </section>
 
@@ -229,6 +238,7 @@
                 </div>
             </div>
         </div>
+        
     </div>
 </footer>
 

@@ -84,7 +84,7 @@
 
                         <div class="form-group mb-3">
     						<label for="cost">{{translate('Cost')}}</label>
-    						<input type="text" placeholder="{{translate('Cost')}}" name="cost" class="form-control" required>
+    						<input type="text" placeholder="{{translate('Cost')}}" value="120" name="cost" class="form-control" required>
     					</div>
 
     					<div class="form-group mb-3 text-right">

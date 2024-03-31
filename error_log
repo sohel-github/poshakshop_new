@@ -692,3 +692,35 @@ Stack trace:
 #3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/poshaksho...', Array)
 #4 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/poshaksho...', Array)
 #5 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->getC in /home/poshakshop/public_html/app/Http/Helpers.php on line 995
+[21-Mar-2024 08:45:18 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined index: HTTP_HOST in /home/poshakshop/public_html/app/Http/Helpers.php:1035
+Stack trace:
+#0 /home/poshakshop/public_html/app/Http/Helpers.php(1035): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined index...', '/home/poshaksho...', 1035, Array)
+#1 /home/poshakshop/public_html/storage/framework/views/3707eb4a49c2ea8e0f710f98d518946ad6599e21.php(10): getBaseURL()
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/poshaksho...')
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/poshaksho...', Array)
+#4 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/poshaksho...', Array)
+#5 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->g in /home/poshakshop/public_html/app/Http/Helpers.php on line 1035
+[21-Mar-2024 08:46:37 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined index: HTTP_HOST in /home/poshakshop/public_html/app/Http/Helpers.php:1035
+Stack trace:
+#0 /home/poshakshop/public_html/app/Http/Helpers.php(1035): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined index...', '/home/poshaksho...', 1035, Array)
+#1 /home/poshakshop/public_html/storage/framework/views/3707eb4a49c2ea8e0f710f98d518946ad6599e21.php(10): getBaseURL()
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/poshaksho...')
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/poshaksho...', Array)
+#4 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/poshaksho...', Array)
+#5 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->g in /home/poshakshop/public_html/app/Http/Helpers.php on line 1035
+[22-Mar-2024 06:12:14 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined index: HTTP_HOST in /home/poshakshop/public_html/app/Http/Helpers.php:1035
+Stack trace:
+#0 /home/poshakshop/public_html/app/Http/Helpers.php(1035): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined index...', '/home/poshaksho...', 1035, Array)
+#1 /home/poshakshop/public_html/storage/framework/views/3707eb4a49c2ea8e0f710f98d518946ad6599e21.php(10): getBaseURL()
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/poshaksho...')
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/poshaksho...', Array)
+#4 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/poshaksho...', Array)
+#5 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->g in /home/poshakshop/public_html/app/Http/Helpers.php on line 1035
+[22-Mar-2024 06:13:36 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined index: HTTP_HOST in /home/poshakshop/public_html/app/Http/Helpers.php:1035
+Stack trace:
+#0 /home/poshakshop/public_html/app/Http/Helpers.php(1035): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined index...', '/home/poshaksho...', 1035, Array)
+#1 /home/poshakshop/public_html/storage/framework/views/3707eb4a49c2ea8e0f710f98d518946ad6599e21.php(10): getBaseURL()
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/poshaksho...')
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/poshaksho...', Array)
+#4 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/poshaksho...', Array)
+#5 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->g in /home/poshakshop/public_html/app/Http/Helpers.php on line 1035
