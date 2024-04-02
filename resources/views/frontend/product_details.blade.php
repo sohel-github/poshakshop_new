@@ -527,7 +527,8 @@
 
                     <div class="col-xl-3 col-lg-4 ">
                         <div class="card border-0">
-                            <div class="card-header">Delivery Options</div>
+                            <div class="card-header">Delivery Options</div
+                            
                             <div class="card-body">
                             {{-- <div class="d-flex">
                                 <span class="font-weight-bold">
@@ -543,91 +544,103 @@
                                     <li class="list-group-item city" data-id={{ $city->id }} data-name="{{ $city->name }}" data-cost="{{ $city->cost }}">{{ $city->name }}</li>
                                     @endforeach
 
-                                  </div>
+                                </div>
                             </div>
+                            
                             <hr> --}}
-                            <div class="d-flex ">
-                                <span class="font-weight-bold">
-                                    <!--<i class="las la-home la-2x"></i>-->
-                                    <i class="las la-map-marker-alt la-2x"></i>
-                                </span>
-                                <p class="font-weight-bold ml-2" id="home-delivery">
-                                   Available Delivery Area: All Over the Bangladesh.
-                                   {{-- <span class="text-muted d-block opacity-50" id="total-days">{{ $detailedProduct->est_shipping_days }} - {{ $detailedProduct->est_shipping_days + 2}}</span> --}}
-                                </p>
-                                <p class="text-muted d-block opacity-50 ml-5" id="shipping-price">
-                                    {{-- ৳ 60 --}}
-                                </p>
-                            </div>
                             
-                            <hr>
-                            <div class="d-flex ">
-                                <span class="font-weight-bold">
-                                    <i class="las la-truck la-2x"></i>
-                                </span>
-                                <p class="font-weight-bold ml-2" id="home-delivery">
-                                   Inside Dhaka - 5 Days<br/>
-                                   Outside Dhaka - 10 Days
-                                </p>
-                            </div>
-                            
-                            <hr>
-                            <div class="d-flex ">
-                                <span class="font-weight-bold">
-                                    <i class="las la-truck la-2x"></i>
-                                </span>
-                                <p class="font-weight-bold ml-2" id="home-delivery">
-                                   Delivery Inside Dhaka 70 TK<br/>
-                                   Delivery Outsite Dhaka 120 TK
-                                </p>
-                            </div>
-                            
-                            <hr>
-                            <p>Payment</p>
+                                <div class="d-flex ">
+                                    <span class="font-weight-bold">
+                                        <!--<i class="las la-home la-2x"></i>-->
+                                        <i class="las la-map-marker-alt la-2x"></i>
+                                    </span>
+                                    <p class="font-weight-bold ml-2" id="home-delivery">
+                                       Available Delivery Area: All Over the Bangladesh.
+                                       {{-- <span class="text-muted d-block opacity-50" id="total-days">{{ $detailedProduct->est_shipping_days }} - {{ $detailedProduct->est_shipping_days + 2}}</span> --}}
+                                    </p>
+                                    <p class="text-muted d-block opacity-50 ml-5" id="shipping-price">
+                                        {{-- ৳ 60 --}}
+                                    </p>
+                                </div>
+                                
+                                <!--<hr>-->
+                                <!--<div class="d-flex ">-->
+                                <!--    <span class="font-weight-bold">-->
+                                <!--        <i class="las la-truck la-2x"></i>-->
+                                <!--    </span>-->
+                                <!--    <p class="font-weight-bold ml-2" id="home-delivery">-->
+                                <!--       Delivery Inside Dhaka 70 TK<br/>-->
+                                <!--       Delivery Outsite Dhaka 120 TK-->
+                                <!--    </p>-->
+                                <!--</div>-->
+                                
+                                <hr>
+                                <p>Delivery Info</p>
+    
+                                <div class="d-flex mt-2">
+                                    <div class="d-flex">
+                                        <span class="font-weight-bold">
+                                            <i class="las la-truck la-2x"></i> 
+                                        </span>
+                                        <p class="font-weight-bold ml-2" id="home-delivery">
+                                           Delivery Time : 1 - 7 Working Days<br/>
 
-                            <div class="d-flex mt-2">
-                                <span class="font-weight-bold">
-                                    <i class="las la-wallet la-2x"></i>
-                                </span>
-                                <p class="font-weight-bold ml-2" id="cash-on-delivery">
-                                   {{ $detailedProduct->cash_on_delivery == 1 ? 'Cash On Delivery Available' : 'Cash On Delivery Not Available' }}
-                                </p>
-                            </div>
-                            
-                            <div>
-                                <img src="{{ static_asset('payment.png') }}" style="width:100%;" />
-                            </div>
-                            
-                            <hr>
-                            <p>Return & Warranty</p>
-                            <div class="d-flex">
-                                <span class="font-weight-bold">
-                                    <i class="las la-exchange-alt la-2x"></i>
-                                </span>
-                                <p class="font-weight-bold ml-2" >
-                                   <span id="return-days"></span>
-                                   <span id="return-days">{{ $detailedProduct->refundable == 1 ? '1 - 7 Working Days' : 'Return not available' }}</span>
-                                   <span class="text-muted d-block opacity-50">{{ $detailedProduct->refundable == 1 ? 'Change of mind is not applicable' : '' }}</span>
-                                </p>
-                            </div>
-                            <div class="d-flex">
-                                <span class="font-weight-bold">
-                                    <i class="las la-exclamation-circle la-2x"></i>
-                                </span>
-                                <p class="font-weight-bold ml-2" id="warranty">
-                                  {{ $detailedProduct->warranty == null ? "Warranty not available" : $detailedProduct->warranty ." Warranty Available" }}
-                                </p>
-                            </div>
-                            <hr>
-                            <p>Shipping Details</p>
-                            <div class="d-flex">
-                                <span class="font-weight-bold">
-                                    <i class="las la-map-marked la-2x"></i>
-                                </span>
-                                <p class="font-weight-bold ml-2" id="product-scope">
-                                    {{ $detailedProduct->product_scope == "global" ? "Shipping From Overseas" : "Shipping From Bangladesh" }}
-                                </p>
-                            </div>
+                                           Shipping Charge : Inside Dhaka - 70 Tk<br/>
+                                                             <span style="margin-left:115px;">Outside Dhaka - 120 Tk</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                
+                                <hr>
+                                <p>Payment</p>
+    
+                                <div class="d-flex mt-2">
+                                    <span class="font-weight-bold">
+                                        <i class="las la-wallet la-2x"></i>
+                                    </span>
+                                    <p class="font-weight-bold ml-2" id="cash-on-delivery">
+                                       {{ $detailedProduct->cash_on_delivery == 1 ? 'Cash On Delivery Available' : 'Cash On Delivery Not Available' }}
+                                    </p>
+                                </div>
+                                
+                                <div>
+                                    <img src="{{ static_asset('payment.png') }}" style="width:100%;" />
+                                </div>
+                                
+                                <!--<hr-->
+                                
+                                <!--<p>Return & Warranty</p>-->
+                                <!--<div class="d-flex">-->
+                                <!--    <span class="font-weight-bold">-->
+                                <!--        <i class="las la-exchange-alt la-2x"></i>-->
+                                <!--    </span>-->
+                                <!--    <p class="font-weight-bold ml-2" >-->
+                                <!--       <span id="return-days"></span>-->
+                                <!--       <span id="return-days">{{ $detailedProduct->refundable == 1 ? '1 - 7 Working Days' : 'Return not available' }}</span>-->
+                                <!--       <span class="text-muted d-block opacity-50">{{ $detailedProduct->refundable == 1 ? 'Change of mind is not applicable' : '' }}</span>-->
+                                <!--    </p>-->
+                                <!--</div>-->
+                                <!--<div class="d-flex">-->
+                                <!--    <span class="font-weight-bold">-->
+                                <!--        <i class="las la-exclamation-circle la-2x"></i>-->
+                                <!--    </span>-->
+                                <!--    <p class="font-weight-bold ml-2" id="warranty">-->
+                                <!--      {{ $detailedProduct->warranty == null ? "Warranty not available" : $detailedProduct->warranty ." Warranty Available" }}-->
+                                <!--    </p>-->
+                                <!--</div>-->
+                                
+                                <hr>
+                                
+                                <p>Shipping Details</p>
+                                <div class="d-flex">
+                                    <span class="font-weight-bold">
+                                        <i class="las la-map-marked la-2x"></i>
+                                    </span>
+                                    <p class="font-weight-bold ml-2" id="product-scope">
+                                        {{ $detailedProduct->product_scope == "global" ? "Shipping From Overseas" : "Shipping From Bangladesh" }}
+                                    </p>
+                                </div>
+                                
                             </div>
                         </div>
                     </div>

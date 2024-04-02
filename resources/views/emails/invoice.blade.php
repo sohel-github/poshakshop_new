@@ -54,7 +54,10 @@
 			font-size: .85rem;
 		}
 		.currency{
-
+            /*
+            {{ get_setting('contact_phone') }}
+            {{ get_setting('site_name') }}
+            */
 		}
 	</style>
 </head>
@@ -77,7 +80,7 @@
 			</table>
 			<table>
 				<tr>
-					<td style="font-size: 1.2rem;" class="strong">{{ get_setting('site_name') }}</td>
+					<td style="font-size: 1.2rem;" class="strong">Poshakshop.com</td>
 					<td class="text-right"></td>
 				</tr>
 				<tr>
@@ -89,7 +92,7 @@
 					<td class="text-right small"><span class="gry-color small">{{  translate('Order ID') }}:</span> <span class="strong">{{ $order->code }}</span></td>
 				</tr>
 				<tr>
-					<td class="gry-color small">{{  translate('Phone') }}: {{ get_setting('contact_phone') }}</td>
+					<td class="gry-color small">{{  translate('Phone') }}: +88 01554208456</td>
 					<td class="text-right small"><span class="gry-color small">{{  translate('Order Date') }}:</span> <span class=" strong">{{ date('d-m-Y', $order->date) }}</span></td>
 				</tr>
 			</table>

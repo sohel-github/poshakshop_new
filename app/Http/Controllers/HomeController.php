@@ -157,6 +157,10 @@ class HomeController extends Controller
         $user->city = $request->city;
         $user->postal_code = $request->postal_code;
         $user->phone = $request->phone;
+        
+        // $user->phone = str_replace('+', '', $to);
+        // Use the parse() method: For example, PhoneNumber::parse('+33123456789')
+        // Use preg_replace: For example, preg_replace('~^(?:0|\+27)?~', '+27', $number)
 
         if($request->new_password != null && ($request->new_password == $request->confirm_password)){
             $user->password = Hash::make($request->new_password);

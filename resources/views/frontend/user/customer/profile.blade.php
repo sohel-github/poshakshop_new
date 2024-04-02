@@ -27,7 +27,7 @@
                 <div class="form-group row">
                     <label class="col-md-2 col-form-label">{{ translate('Your Phone') }}</label>
                     <div class="col-md-10">
-                        <input type="text" class="form-control" placeholder="{{ translate('Your Phone')}}" name="phone" value="88{{ Auth::user()->phone }}">
+                        <input type="text" class="form-control" placeholder="{{ translate('Your Phone')}}" name="phone" value="{{ Auth::user()->phone }}">
                     </div>
                 </div>
                 

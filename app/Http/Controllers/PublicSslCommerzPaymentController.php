@@ -23,6 +23,8 @@ class PublicSslCommerzPaymentController extends Controller
 
     public function index(Request $request)
     {
+        
+            //dd($request->session());
 
             # Here you have to receive all the order data to initate the payment.
             # Lets your oder trnsaction informations are saving in a table called "orders"
@@ -30,8 +32,14 @@ class PublicSslCommerzPaymentController extends Controller
             if(Session::has('payment_type')){
                 if(Session::get('payment_type') == 'cart_payment'){
                     $order = Order::findOrFail($request->session()->get('order_id'));
+                    
+                    $shipping_details = json_decode($order->shipping_address);
+                    $shipping_cost = $shipping_details->cost;
+                    
+                    //dd($shipping_cost);
+                    
                     $post_data = array();
-                    $post_data['total_amount'] = $order->grand_total; # You cant not pay less than 10
+                    $post_data['total_amount'] = $order->grand_total + $shipping_cost; # You cant not pay less than 10
                     $post_data['currency'] = "BDT";
                     $post_data['tran_id'] = substr(md5($request->session()->get('order_id')), 0, 10); // tran_id must be unique
 
@@ -40,9 +48,9 @@ class PublicSslCommerzPaymentController extends Controller
                     $post_data['value_c'] = $request->session()->get('payment_type');
 
                     #Start to save these value  in session to pick in success page.
-                    // $_SESSION['payment_values']['tran_id']=$post_data['tran_id'];
-                    // $_SESSION['payment_values']['order_id']=$request->session()->get('order_id');
-                    // $_SESSION['payment_values']['payment_type']=$request->session()->get('payment_type');
+                    $_SESSION['payment_values']['tran_id']=$post_data['tran_id'];
+                    $_SESSION['payment_values']['order_id']=$request->session()->get('order_id');
+                    $_SESSION['payment_values']['payment_type']=$request->session()->get('payment_type');
                     #End to save these value  in session to pick in success page.
 
                     # CUSTOMER INFORMATION
