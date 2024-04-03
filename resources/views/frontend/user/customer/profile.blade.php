@@ -314,7 +314,7 @@
                             <div class="row">
                                 <label class="col-md-2 col-form-label">{{ translate('Phone') }}</label>
                                 <div class="col-md-10">
-                                    <input type="text" class="form-control mb-3" placeholder="{{ translate('Your phone number')}}" name="phone" value="" required>
+                                    <input type="text" class="form-control mb-3" placeholder="{{ translate('Your Phone Number')}}" name="phone" value="" required>
                                 </div>
                             </div>
                             <div class="form-group text-right">

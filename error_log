@@ -732,3 +732,59 @@ Stack trace:
 #3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/poshaksho...', Array)
 #4 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/poshaksho...', Array)
 #5 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->g in /home/poshakshop/public_html/app/Http/Helpers.php on line 1035
+[03-Apr-2024 06:21:38 UTC] PHP Fatal error:  Uncaught Laravel\Socialite\Two\InvalidStateException in /home/poshakshop/public_html/vendor/laravel/socialite/src/Two/AbstractProvider.php:209
+Stack trace:
+#0 /home/poshakshop/public_html/storage/framework/views/f7a42b2b3d9ee5e4e9e0608c50ce24a4af89d474.php(10): Laravel\Socialite\Two\AbstractProvider->user()
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/poshaksho...')
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/poshaksho...', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/poshaksho...', Array)
+#4 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->getContents()
+#5 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\ in /home/poshakshop/public_html/vendor/laravel/socialite/src/Two/AbstractProvider.php on line 209
+[03-Apr-2024 06:28:12 UTC] PHP Fatal error:  Uncaught Laravel\Socialite\Two\InvalidStateException in /home/poshakshop/public_html/vendor/laravel/socialite/src/Two/AbstractProvider.php:209
+Stack trace:
+#0 /home/poshakshop/public_html/storage/framework/views/f7a42b2b3d9ee5e4e9e0608c50ce24a4af89d474.php(8): Laravel\Socialite\Two\AbstractProvider->user()
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/poshaksho...')
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/poshaksho...', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/poshaksho...', Array)
+#4 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->getContents()
+#5 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\V in /home/poshakshop/public_html/vendor/laravel/socialite/src/Two/AbstractProvider.php on line 209
+[03-Apr-2024 06:30:10 UTC] PHP Fatal error:  Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Class 'Socialite\Facades\Socialite' not found in /home/poshakshop/public_html/storage/framework/views/f7a42b2b3d9ee5e4e9e0608c50ce24a4af89d474.php:8
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include()
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/poshaksho...', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/poshaksho...', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->getContents()
+#4 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\View\View->renderContents()
+#5 /home/poshakshop/public_html/storage/framework/views/f4231c7e7e51a91600e in /home/poshakshop/public_html/storage/framework/views/f7a42b2b3d9ee5e4e9e0608c50ce24a4af89d474.php on line 8
+[03-Apr-2024 06:30:10 UTC] PHP Fatal error:  Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Class 'Socialite\Facades\Socialite' not found in /home/poshakshop/public_html/storage/framework/views/f7a42b2b3d9ee5e4e9e0608c50ce24a4af89d474.php:8
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include()
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/poshaksho...', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/poshaksho...', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->getContents()
+#4 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\View\View->renderContents()
+#5 /home/poshakshop/public_html/storage/framework/views/f4231c7e7e51a91600e in /home/poshakshop/public_html/storage/framework/views/f7a42b2b3d9ee5e4e9e0608c50ce24a4af89d474.php on line 8
+[03-Apr-2024 06:30:31 UTC] PHP Fatal error:  Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Class 'Socialite\Facades\Socialite' not found in /home/poshakshop/public_html/storage/framework/views/f7a42b2b3d9ee5e4e9e0608c50ce24a4af89d474.php:8
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include()
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/poshaksho...', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/poshaksho...', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->getContents()
+#4 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\View\View->renderContents()
+#5 /home/poshakshop/public_html/storage/framework/views/f4231c7e7e51a91600e in /home/poshakshop/public_html/storage/framework/views/f7a42b2b3d9ee5e4e9e0608c50ce24a4af89d474.php on line 8
+[03-Apr-2024 06:45:32 UTC] PHP Fatal error:  Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Class 'laravel\socialite\Facades\Socialite' not found in /home/poshakshop/public_html/storage/framework/views/f7a42b2b3d9ee5e4e9e0608c50ce24a4af89d474.php:8
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include()
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/poshaksho...', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/poshaksho...', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->getContents()
+#4 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\View\View->renderContents()
+#5 /home/poshakshop/public_html/storage/framework/views/f4231c7e7e5 in /home/poshakshop/public_html/storage/framework/views/f7a42b2b3d9ee5e4e9e0608c50ce24a4af89d474.php on line 8
+[03-Apr-2024 06:53:10 UTC] PHP Fatal error:  Uncaught Symfony\Component\Debug\Exception\FatalThrowableError: Class 'laravel\socialite\Facades\Socialite' not found in /home/poshakshop/public_html/storage/framework/views/f7a42b2b3d9ee5e4e9e0608c50ce24a4af89d474.php:8
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include()
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/poshaksho...', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/poshaksho...', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->getContents()
+#4 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\View\View->renderContents()
+#5 /home/poshakshop/public_html/storage/framework/views/f4231c7e7e5 in /home/poshakshop/public_html/storage/framework/views/f7a42b2b3d9ee5e4e9e0608c50ce24a4af89d474.php on line 8

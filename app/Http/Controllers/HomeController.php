@@ -156,7 +156,7 @@ class HomeController extends Controller
         $user->country = $request->country;
         $user->city = $request->city;
         $user->postal_code = $request->postal_code;
-        $user->phone = $request->phone;
+        $user->phone = '88'.$request->phone;
         
         // $user->phone = str_replace('+', '', $to);
         // Use the parse() method: For example, PhoneNumber::parse('+33123456789')

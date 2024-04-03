@@ -1,7 +1,15 @@
 @php
+
+
 if(auth()->user() != null) {
     $user_id = Auth::user()->id;
     $cart = \App\Cart::where('user_id', $user_id)->get();
+    
+    //$google = \Laravel\Socialite\Facades\Socialite::driver('google')->user();
+    //dd($google);
+    
+    //dd($cart);
+    //dd($user_id);
 } else {
     $temp_user_id = Session()->get('temp_user_id');
     if($temp_user_id) {
