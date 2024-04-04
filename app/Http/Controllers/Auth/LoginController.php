@@ -9,6 +9,7 @@ use App\User;
 use App\Customer;
 use App\Cart;
 use Session;
+use Auth;
 use Illuminate\Http\Request;
 use CoreComponentRepository;
 use Illuminate\Support\Str;
@@ -90,6 +91,23 @@ class LoginController extends Controller
             return redirect(session('link'));
         }
         else{
+            
+            $temp_user_id = $request->session()->get('temp_user_id');
+            // $carts = Cart::where('temp_user_id', $temp_user_id)->get();
+            $carts = ($temp_user_id != null) ? Cart::where('temp_user_id', $temp_user_id)->get() : [];
+            
+            $user_id = Auth::user()->id;
+            
+            if(count($carts))
+            {
+                foreach($carts as $cart)
+                {
+                    $cart->user_id = $user_id;
+                    $cart->temp_user_id = null;
+                    $cart->save();
+                }
+            }
+            
             return redirect()->route('dashboard');
         }
     }
@@ -171,9 +189,9 @@ class LoginController extends Controller
         }
         
         //User's Cart Delete
-        if(auth()->user()){
-            Cart::where('user_id', auth()->user()->id)->delete();
-        }
+        // if(auth()->user()){
+        //     Cart::where('user_id', auth()->user()->id)->delete();
+        // }
         
         $this->guard()->logout();
 

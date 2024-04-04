@@ -260,13 +260,14 @@
         }
 
         function updateQuantity(key, element){
-            $.post('{{ route('cart.updateQuantity') }}', { 
+            $.post('{{ route('cart.updateQuantity') }}', {
                 _token   :  AIZ.data.csrf, 
                 id       :  key, 
                 quantity :  element.value
             }, function(data){
                 updateNavCart(data.nav_cart_view,data.cart_count);
                 $('#cart-summary').html(data.cart_view);
+                //console.log(data.cart_view);
             });
         }
 
