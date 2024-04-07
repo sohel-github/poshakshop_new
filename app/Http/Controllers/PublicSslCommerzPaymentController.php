@@ -29,6 +29,7 @@ class PublicSslCommerzPaymentController extends Controller
             # Here you have to receive all the order data to initate the payment.
             # Lets your oder trnsaction informations are saving in a table called "orders"
             # In orders table order uniq identity is "order_id","order_status" field contain status of the transaction, "grand_total" is the order amount to be paid and "currency" is for storing Site Currency which will be checked with paid currency.
+            
             if(Session::has('payment_type')){
                 if(Session::get('payment_type') == 'cart_payment'){
                     $order = Order::findOrFail($request->session()->get('order_id'));
@@ -54,13 +55,13 @@ class PublicSslCommerzPaymentController extends Controller
                     #End to save these value  in session to pick in success page.
 
                     # CUSTOMER INFORMATION
-//                    $post_data['cus_name'] = $request->session()->get('shipping_info')['name'];
-//                    $post_data['cus_add1'] = $request->session()->get('shipping_info')['address'];
-//                    $post_data['cus_city'] = $request->session()->get('shipping_info')['city'];
-//                    $post_data['cus_postcode'] = $request->session()->get('shipping_info')['postal_code'];
-//                    $post_data['cus_country'] = $request->session()->get('shipping_info')['country'];
-//                    $post_data['cus_phone'] = $request->session()->get('shipping_info')['phone'];
-//                    $post_data['cus_email'] = $request->session()->get('shipping_info')['email'];
+                    $post_data['cus_name'] = $request->session()->get('shipping_info')['name'];
+                    $post_data['cus_add1'] = $request->session()->get('shipping_info')['address'];
+                    $post_data['cus_city'] = $request->session()->get('shipping_info')['city'];
+                    $post_data['cus_postcode'] = $request->session()->get('shipping_info')['postal_code'];
+                    $post_data['cus_country'] = $request->session()->get('shipping_info')['country'];
+                    $post_data['cus_phone'] = $request->session()->get('shipping_info')['phone'];
+                    $post_data['cus_email'] = $request->session()->get('shipping_info')['email'];
                     
                 }
                 elseif (Session::get('payment_type') == 'wallet_payment') {
@@ -196,7 +197,7 @@ class PublicSslCommerzPaymentController extends Controller
         return redirect()->url()->previous();
     }
 
-     public function cancel(Request $request)
+    public function cancel(Request $request)
     {
         $request->session()->forget('order_id');
         $request->session()->forget('payment_data');
@@ -204,7 +205,7 @@ class PublicSslCommerzPaymentController extends Controller
     	return redirect()->url()->previous();
     }
 
-     public function ipn(Request $request)
+    public function ipn(Request $request)
     {
         #Received all the payement information from the gateway
       if($request->input('tran_id')) #Check transation id is posted or not.
