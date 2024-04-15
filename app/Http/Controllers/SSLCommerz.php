@@ -43,7 +43,7 @@ class SSLCommerz
                 $this->store_pass = $seller->ssl_password;
             }
         }
-        $this->sslc_submit_url = "https://" . $this->sslc_mode . ".sslcommerz.com/gwprocess/v3/api.php";
+        $this->sslc_submit_url = "https://" . $this->sslc_mode . ".sslcommerz.com/gwprocess/v4/api.php";
         $this->sslc_validation_url = "https://" . $this->sslc_mode . ".sslcommerz.com/validator/api/validationserverAPI.php";
     }
 

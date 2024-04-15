@@ -820,3 +820,491 @@ Stack trace:
 #3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/poshaksho...', Array)
 #4 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/poshaksho...', Array)
 #5 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->g in /home/poshakshop/public_html/app/Http/Helpers.php on line 1035
+[08-Apr-2024 21:58:11 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined index: HTTP_HOST in /home/poshakshop/public_html/app/Http/Helpers.php:1035
+Stack trace:
+#0 /home/poshakshop/public_html/app/Http/Helpers.php(1035): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined index...', '/home/poshaksho...', 1035, Array)
+#1 /home/poshakshop/public_html/storage/framework/views/3707eb4a49c2ea8e0f710f98d518946ad6599e21.php(10): getBaseURL()
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/poshaksho...')
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/poshaksho...', Array)
+#4 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/poshaksho...', Array)
+#5 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->g in /home/poshakshop/public_html/app/Http/Helpers.php on line 1035
+[10-Apr-2024 17:15:55 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined index: HTTP_HOST in /home/poshakshop/public_html/app/Http/Helpers.php:1035
+Stack trace:
+#0 /home/poshakshop/public_html/app/Http/Helpers.php(1035): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined index...', '/home/poshaksho...', 1035, Array)
+#1 /home/poshakshop/public_html/storage/framework/views/3707eb4a49c2ea8e0f710f98d518946ad6599e21.php(10): getBaseURL()
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/poshaksho...')
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/poshaksho...', Array)
+#4 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/poshaksho...', Array)
+#5 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->g in /home/poshakshop/public_html/app/Http/Helpers.php on line 1035
+[10-Apr-2024 17:17:11 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined index: HTTP_HOST in /home/poshakshop/public_html/app/Http/Helpers.php:1035
+Stack trace:
+#0 /home/poshakshop/public_html/app/Http/Helpers.php(1035): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined index...', '/home/poshaksho...', 1035, Array)
+#1 /home/poshakshop/public_html/storage/framework/views/3707eb4a49c2ea8e0f710f98d518946ad6599e21.php(10): getBaseURL()
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/poshaksho...')
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/poshaksho...', Array)
+#4 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/poshaksho...', Array)
+#5 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->g in /home/poshakshop/public_html/app/Http/Helpers.php on line 1035
+[11-Apr-2024 08:11:59 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined index: HTTP_HOST in /home/poshakshop/public_html/app/Http/Helpers.php:1035
+Stack trace:
+#0 /home/poshakshop/public_html/app/Http/Helpers.php(1035): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined index...', '/home/poshaksho...', 1035, Array)
+#1 /home/poshakshop/public_html/storage/framework/views/3707eb4a49c2ea8e0f710f98d518946ad6599e21.php(10): getBaseURL()
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/poshaksho...')
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/poshaksho...', Array)
+#4 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(143): Illuminate\View\Engines\CompilerEngine->get('/home/poshaksho...', Array)
+#5 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/View/View.php(126): Illuminate\View\View->g in /home/poshakshop/public_html/app/Http/Helpers.php on line 1035
+[15-Apr-2024 01:12:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:25 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:26 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:31 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:32 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
+[15-Apr-2024 01:12:34 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#1 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#2 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'poshakshop_user', 'Rtel-id,H^!q', Array)
+#3 /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database in /home/poshakshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 669
